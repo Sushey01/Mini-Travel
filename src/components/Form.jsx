@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Form.css";
 
-const Form = () => {
-  const [quantity, SetQuantity] = useState("");
+const Form = ({onAddItem}) => {
+  const [quantity, SetQuantity] = useState("1");
   const [itemName, SetItemName] = useState("");
 
   function handleSubmit(e) {
@@ -14,7 +14,7 @@ const Form = () => {
         id:Date.now(),
         name:itemName,
         quantity:Number(quantity),
-        packed:false,
+        status:"none"
     }
  
     onAddItem(newItem);
@@ -32,7 +32,7 @@ const Form = () => {
           onChange={(e) => SetQuantity(e.target.value)}
         >
 
-            
+
           <option>1</option>
           <option>2</option>
           <option>3</option>

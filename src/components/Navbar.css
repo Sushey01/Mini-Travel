@@ -6,5 +6,13 @@
 }
 
 .nav-logo h1{
-    font-size: 50px;
+      text-align: center;
+  background-color: #f4a226;
+  font-family: "Monoton";
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  word-spacing: 30px;
+  letter-spacing: -5px;
+  padding: 10px;
 }
