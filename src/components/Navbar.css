@@ -1,0 +1,10 @@
+.navbar-container{
+    border: 1px solid;
+    padding: 20px;
+    justify-items: center;
+    background-color: orange;
+}
+
+.nav-logo h1{
+    font-size: 50px;
+}

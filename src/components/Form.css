@@ -1,0 +1,50 @@
+.add-form{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: orangered;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+.add-form h3{
+    color: #212121;
+}
+
+
+.form-select{
+    display: flex;
+    gap: 20px;
+}
+
+
+.num-select{
+    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 1px solid;
+    border-radius: 25px;
+}
+
+.name-item{
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+}
+
+.add-button{
+    background-color: rgb(186, 244, 244);
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 8px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: #5a3e2b;
+}
+
+.add-button:hover{
+    cursor: pointer;
+}
