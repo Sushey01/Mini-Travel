@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Form from "./Form";
 import "./ShowList.css";
 import Item from "./Item";
+import Footer from "./Footer"
 
 const ShowList = () => {
   const [items, setItems] = useState([]);
@@ -53,6 +54,7 @@ const ShowList = () => {
             item={item}
             onToggleItem={handleToggleItem}
             onDeleteItem={handleDeleteItem}
+            
           />
         ))}
       </ul>
@@ -71,6 +73,7 @@ const ShowList = () => {
           CLEAR LIST
         </button>
       </div>
+      <Footer items={items} />
     </div>
   );
 };

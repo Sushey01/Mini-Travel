@@ -1,5 +1,15 @@
 .footer-container{
     background-color: #76c7ad;
     justify-items: center;
-    padding: 20px;
+    padding: 35px;
+    height: 100%;
+}
+
+
+.footer-message{
+      background-color: #76c7ad;
+      display: flex;
+    padding: 35px;
+    height: 100%;
+    justify-content: center;
 }
