@@ -14,7 +14,8 @@ const Form = ({onAddItem}) => {
         id:Date.now(),
         name:itemName,
         quantity:Number(quantity),
-        status:"none"
+        status:"none",
+        packed:false,
     }
  
     onAddItem(newItem);
