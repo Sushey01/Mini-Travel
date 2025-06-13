@@ -55,3 +55,10 @@
 .add-button:hover{
     cursor: pointer;
 }
+
+@media(max-width:645px){
+    .add-form{
+        display: flex;
+        flex-direction: column;
+    }
+}

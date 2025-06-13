@@ -52,3 +52,18 @@
     font-weight: 600;
     background-color: #ffebb3;
 }
+
+
+@media(max-width:645px){
+
+    .list-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-names{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
